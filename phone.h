@@ -8,6 +8,5 @@ struct Contact
     char PhoneNumber[13];
 };
 
-struct Contact PhoneBook[MAX];
-
-int size;  // store the actual numbers of PhoneBook
+extern struct Contact PhoneBook[MAX];
+extern int size;
